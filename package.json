@@ -2,14 +2,18 @@
   "name": "backend_development",
   "version": "1.0.0",
   "description": "Ultimate Backend Development",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "JavaScript",
     "Backend"
   ],
   "author": "Suneet Nankani",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
